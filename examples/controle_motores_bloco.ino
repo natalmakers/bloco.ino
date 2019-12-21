@@ -25,7 +25,7 @@
 #define   MOTOR1_VALOR_A       0
 #define   MOTOR1_VALOR_B       0
 #define   MOTOR2_VALOR_A       0
-#define   MOTOR2_VALOR_A       0
+#define   MOTOR2_VALOR_B       0
 
 
 
