@@ -4,7 +4,7 @@
   Controla a abertura de uma janela conforme a temperatura de uma casa
 
 
-  Criado em 8 de Desembro de 2019
+  Criado em 8 de Dezembro de 2019
   por NatalMakers.com
 
   Este exemplo de Código é de domínio público.
