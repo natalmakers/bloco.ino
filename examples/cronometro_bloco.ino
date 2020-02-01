@@ -3,7 +3,7 @@
 
   Cria um contador de tempo para exercícios com prazos
 
-  Criado em 8 de Desembro de 2019
+  Criado em 8 de Dezembro de 2019
   por NatalMakers.com
 
   Este exemplo de Código é de domínio público.
