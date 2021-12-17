@@ -41,13 +41,13 @@ void setup() {
   pinMode(in3, OUTPUT);
   pinMode(in4, OUTPUT);
   pinMode(buzzer,OUTPUT);
-  pinMode(sw,INPUT_PULLUP);
+  pinMode(PINO_BOTAO_JOYSTICK,INPUT_PULLUP);
 }
 
 void loop() {
 
-  x = map(analogRead(joyX), 0, 1023, 10, -10);
-  y = map(analogRead(joyY), 0, 1023, 10, -10);
+  x = map(analogRead(PINO_JOYSTICK_X), 0, 1023, 10, -10);
+  y = map(analogRead(PINO_JOYSTICK_Y), 0, 1023, 10, -10);
   if (x < 4 && x > -4) {
     x = 0;
   }
@@ -81,7 +81,7 @@ void loop() {
 
   delay(10);
 
-  if(digitalRead(sw)==LOW){
+  if(digitalRead(PINO_BOTAO_JOYSTICK)==LOW){
     tone(buzzer,392);
     }
     else{
